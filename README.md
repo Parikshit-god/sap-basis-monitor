@@ -2,6 +2,10 @@
 
 This tool simulates and automates the critical daily tasks of an SAP Basis Administrator. It generates a mock SAP folder structure, evaluates live system resources (CPU, RAM, Disk), monitors database latency, analyzes mock SAP system logs (SM21), audits user accounts for security violations, auto-locks compromised accounts, and serves all this data via an interactive local web dashboard and automated PDF reports.
 
+## Live Demo
+<img width="800" height="450" alt="SAPBasisInfrastructureMonitorStreamlit-GoogleChrome2026-06-0916-23-20-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/12715388-da36-453d-a084-02feeb410c4d" />
+
+
 ## Prerequisites
 - Python 3.8 or higher
 - Windows, macOS, or Linux
