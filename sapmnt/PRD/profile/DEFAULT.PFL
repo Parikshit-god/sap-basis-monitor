@@ -1,0 +1,20 @@
+# DEFAULT.PFL - SAP System Profile
+system/type = ABAP
+SAPSYSTEMNAME = PRD
+SAPSYSTEM = 00
+INSTANCE_NAME = DVEBMGS00
+DIR_PROFILE = /sapmnt/PRD/profile
+DIR_EXECUTABLE = /usr/sap/PRD/SYS/exe/run
+rdisp/wp_no_dia = 30
+rdisp/wp_no_btc = 10
+rdisp/wp_no_enq = 1
+rdisp/wp_no_spo = 2
+rdisp/wp_no_vb = 4
+rdisp/wp_no_vb2 = 2
+icm/server_port_0 = PROT=HTTP,PORT=8000,TIMEOUT=60,PROCTIMEOUT=600
+icm/max_conn = 500
+login/min_password_lng = 8
+login/fails_to_session_end = 3
+login/fails_to_user_lock = 5
+ztta/roll_extension = 2000000000
+em/initial_size_MB = 4096

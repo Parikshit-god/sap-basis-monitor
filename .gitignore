@@ -1,0 +1,26 @@
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Database (Cloud will auto-generate this)
+data/sap_system.db
+data/sap_system.db-journal
+
+# Generated Reports
+reports/*.txt
+reports/*.pdf
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables & Logs
+.env
+*.log
